@@ -5,7 +5,7 @@ import io
 import os
 import PIL
 
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
