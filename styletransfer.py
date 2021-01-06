@@ -1,11 +1,13 @@
 import streamlit as st
+
+import matplotlib
+from matplotlib import pyplot as plt
+matplotlib.use('Agg')
 import functools
 import requests
 import io
 import os
 import PIL
-
-from matplotlib import pyplot as plt
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
