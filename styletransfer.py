@@ -13,7 +13,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 print("Eager mode enabled: ", tf.executing_eagerly())
 
-@st.cache(surpress_st_warning=True)
+@st.cache(suppress_st_warning=True)
 def crop_center(image):
   """Returns a cropped square image."""
   shape = image.shape
@@ -25,7 +25,7 @@ def crop_center(image):
   return image
 
 @functools.lru_cache(maxsize=10000)
-@st.cache(allow_output_mutation=True, max_entries=1000, ttl=3600,surpress_st_warning=True)
+@st.cache(allow_output_mutation=True, max_entries=1000, ttl=3600,suppress_st_warning=True)
 def load_image(image_url, image_size=(256, 256), preserve_aspect_ratio=True):
   """Loads and preprocesses images."""
   image_path = tf.keras.utils.get_file(os.path.basename(image_url)[-128:], image_url)
@@ -69,7 +69,7 @@ st.write('Neural Style Transfer is a technique that uses deep learning to compos
 
 st.write('NST algorithms are characterized by their use of deep neural networks for the sake of image transformation. This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network. Common uses for NST are the creation of artificial artwork from photographs, for example by transferring the appearance of famous paintings to user-supplied photographs. Several notable mobile apps use NST techniques for this purpose, including DeepArt and Prisma. This method has been used by artists and designers around the globe to develop new artwork based on existent style(s).')
 st.write("Feel free to play around with different styles and I strongly encourage you to try out the already made styles in the sidebar on your left. You'll be making transformations like the one below in a few seconds!")
-@st.cache(surpress_st_warning=True)
+@st.cache(suppress_st_warning=True)
 def imageFromURL(url,img_shape=(320,240)):
     response = requests.get(url)
     image_bytes = io.BytesIO(response.content)
@@ -114,7 +114,7 @@ content_image_url = st.text_input('Enter the content image URL here: ',content_i
 style_image_url = st.text_input('Enter the style image URL here: ',style_image_url)
 
 @functools.lru_cache(maxsize=10000)
-@st.cache(allow_output_mutation=True, max_entries=1000, ttl=3600,surpress_st_warning=True)
+@st.cache(allow_output_mutation=True, max_entries=1000, ttl=3600,suppress_st_warning=True)
 def prediction(content_image_url,style_image_url):
   content_image = load_image(content_image_url, content_img_size) 
   style_image = load_image(style_image_url, style_img_size) 
