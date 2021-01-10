@@ -23,7 +23,8 @@ def crop_center(image):
       image, offset_y, offset_x, new_shape, new_shape)
   return image
 
-@functools.lru_cache(maxsize=None)
+@functools.lru_cache(maxsize=10000)
+@st.cache(allow_output_mutation=True, max_entries=10, ttl=3600)
 def load_image(image_url, image_size=(256, 256), preserve_aspect_ratio=True):
   """Loads and preprocesses images."""
   # Cache image file locally.
