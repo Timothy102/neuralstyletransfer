@@ -21,7 +21,7 @@ Have you ever wanted to paint like the world's most famous artists? Here's your 
 
 <img src="https://github.com/Timothy102/neuralstyletransfer/blob/main/download.jpeg" alt="drawing" width="600"/>
 
-## Concact
+## Contact
 
 LinkedIn : https://www.linkedin.com/in/tim-cvetko-32842a1a6/
 
