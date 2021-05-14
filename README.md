@@ -21,5 +21,8 @@ Have you ever wanted to paint like the world's most famous artists? Here's your 
 
 <img src="https://github.com/Timothy102/neuralstyletransfer/blob/main/download.jpeg" alt="drawing" width="600"/>
 
+## Concact
+
+LinkedIn : https://www.linkedin.com/in/tim-cvetko-32842a1a6/
 
 Feel free to read the article I wrote in Towards AI : https://towardsai.net/p/machine-learning/deploying-a-neural-style-transfer-app-on-streamlit
