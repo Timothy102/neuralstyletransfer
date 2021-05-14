@@ -1,4 +1,4 @@
-# Neural style transfer web application
+# Neural Style Transfer Web Application built with Streamlit
 
 Recently, inspired by the power of Convolutional Neural
 Networks (CNNs), Gatys et al. [10] first studied how to use
@@ -17,4 +17,4 @@ content information and artwork’s style information. Their
 proposed algorithm successfully produces stylised images
 with the appearance of a given artwork.
 
-<img src="https://github.com/Timothy102/neuralstyletransfer/blob/main/download.jpeg" alt="drawing" width="750"/>
+<img src="https://github.com/Timothy102/neuralstyletransfer/blob/main/download.jpeg" alt="drawing" width="600"/>
