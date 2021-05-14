@@ -17,4 +17,9 @@ content information and artwork’s style information. Their
 proposed algorithm successfully produces stylised images
 with the appearance of a given artwork.
 
+Have you ever wanted to paint like the world's most famous artists? Here's your chance!!! :)
+
 <img src="https://github.com/Timothy102/neuralstyletransfer/blob/main/download.jpeg" alt="drawing" width="600"/>
+
+
+Feel free to read the article I wrote in Towards AI : https://towardsai.net/p/machine-learning/deploying-a-neural-style-transfer-app-on-streamlit
