@@ -1,5 +1,7 @@
 # Neural Style Transfer Web Application built with Streamlit
 
+## Motivation
+
 Recently, inspired by the power of Convolutional Neural
 Networks (CNNs), Gatys et al. [10] first studied how to use
 a CNN to reproduce famous painting styles on natural
@@ -17,12 +19,15 @@ content information and artwork’s style information. Their
 proposed algorithm successfully produces stylised images
 with the appearance of a given artwork.
 
+## Source
+
 Have you ever wanted to paint like the world's most famous artists? Here's your chance!!! :)
 
 <img src="https://github.com/Timothy102/neuralstyletransfer/blob/main/download.jpeg" alt="drawing" width="600"/>
 
 ## Contact
+Please, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/tim-cvetko-32842a1a6/) or [Gmail](tim@metawaveai.com).
 
-LinkedIn : https://www.linkedin.com/in/tim-cvetko-32842a1a6/
+## License
 
-Feel free to read the article I wrote in Towards AI : https://towardsai.net/p/machine-learning/deploying-a-neural-style-transfer-app-on-streamlit
+Licensed under the MIT [LICENSE](LICENSE)
